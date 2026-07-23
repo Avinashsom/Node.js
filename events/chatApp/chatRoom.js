@@ -5,6 +5,7 @@ class ChatRoom extends EventEmitter {
         super() //
         this.users= new Set();
     }
+    
     //this user join the chat room
     join(user){
         this.users.add(user);
