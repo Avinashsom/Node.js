@@ -1,0 +1,19 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Avinash Som",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1"
+  },
+  "dependencies": {
+    "express": "^4.22.2"
+  }
+}
